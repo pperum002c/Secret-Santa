@@ -8,19 +8,15 @@ body, html {
 }
 
 .home-screen{
-  font-family: Brush Script MT, Brush Script Std, cursive;
-  color: aliceblue;
-  font-size: 30px;
-  word-spacing: 1rem;
-  word-wrap: break-word;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  /* justify-content: flex-start; */
-  /* margin-left: 35rem; */
-  padding-left: 5rem;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  /* padding-left: 5rem;
   padding-top: 4rem;
-  width: auto !important;
+  width: auto !important; */
 }
 
 .my-btns {

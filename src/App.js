@@ -6,6 +6,7 @@ import Participant from './components/Participant';
 import Wishlist from './components/Wishlist';
 import React from 'react';
 import Playgame from './components/Playgame';
+import Home from './components/Home';
 
 function App() {
   const [wishes, setWishes] = useState([])
@@ -59,6 +60,7 @@ function App() {
         <div className="App">
           <MyButton />
           <Routes>
+            <Route path='/' exact element={<Home />} />
             <Route path='/makeawish' exact element={<Participant onAdd={addWish}/>}/>
             <Route path='/beasanta' exact element={<Playgame/>}/>
             <Route path='/wishes' exact element={<Wishlist wishes={wishes}/>}/>

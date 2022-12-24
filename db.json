@@ -1,3 +1,13 @@
 {
-  "wishes": []
+  "wishes": [
+    {
+      "name": "Prakash P",
+      "eid": "11592977",
+      "wish": "Any Hoodie (XL), Any choice of shoes (10), Boat Bluetooth Headset (Neckband)",
+      "stay": "103, Lotus Parimal Apartment, 5A Cross Street, Doddathoguru, E.city Phase 1, Bengaluru, Karnataka - 560100",
+      "pickup": false,
+      "amsanta": false,
+      "id": 1
+    }
+  ]
 }
